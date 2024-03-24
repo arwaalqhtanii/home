@@ -1,38 +1,264 @@
-.App {
-  text-align: center;
+
+
+.primary-button-40-px {
+  border-radius: 6px;
+  background: var(--system-blue-007-aff, #007AFF);
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0;
+  width: 360px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dis {
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 1.333;
+  color: var(--white-ffffff, #FFFFFF);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sign-up-offer {
+  margin-right: 29px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.description {
+  margin-right: 8.4px;
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  line-height: 1.667;
+  color: var(--black-9001-a-1-a-1-a, #1A1A1A);
+}
+
+.description-1 {
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  line-height: 1.667;
+  color: var(--system-blue-007-aff, #007AFF);
+}
+
+.sign-in-form-desktop {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.rectangle-2756 {
+  background: url('./Image/Rectangle\ 2756.png') 50% / cover no-repeat;
+  width: 984px;
+  height: 900.5px;
+}
+
+.f1 {
+  background: var(--white-ffffff, #FFFFFF);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 456px;
 }
 
-.App-link {
-  color: #61dafb;
+.f2 {
+  margin: 0 212px 48px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  margin-right: 10.1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+}
+
+.avatar {
+  background: url('./Image/Avatar-UI-Unicorn-V2.png') 50% / cover no-repeat;
+  width: 48px;
+  height: 48px;
+}
+
+.t-logo {
+  margin: 10px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Alatsi';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--black-9001-a-1-a-1-a, #1A1A1A);
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.description-2 {
+  margin-bottom: 36.4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  line-height: 1.667;
+  color: var(--system-blue-007-aff, #007AFF);
+}
+
+.f3 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.welcom {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: fle-start;
+  font-family: 'Alatsi';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #1A1A1A;
+}
+
+.f4 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.input-configurator {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.satellite-input {
+  margin: 0 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.login {
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  line-height: 0.923;
+  color: var(--black-800333333, #333333);
+}
+
+.login-input {
+  border-radius: 6px;
+  border: 0.5px solid #E5E5E5;
+  background: #F2F2F2;
+  position: relative;
+  padding: 14px 105px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.regular-input-double-row {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.email-or-phone-number {
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: var(--black-500808080, #808080);
+}
+
+.input-configurator-4 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.satellite-input-5 {
+  margin: 0 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.password {
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  line-height: 0.923;
+  color: var(--black-800333333, #333333);
+}
+
+.password-input {
+  border-radius: 6px;
+  border: 0.5px solid #E5E5E5;
+  background: #F2F2F2;
+  position: relative;
+  padding: 14px 130px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.regular-input-double-row-7 {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.enter-password {
+  overflow-wrap: break-word;
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  
+  color: var(--black-500808080, #808080);
 }
